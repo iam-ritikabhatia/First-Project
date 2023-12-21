@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fb;
+    font-family: 'Poppins', sans-serif
+}
+
+nav h1 {
+    color: blue
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: white
+}
+
+main {
+    display: flex;
+    justify-content: space-between
+}
+
+.div-1 {
+    width: 20%;
+    height: 1000px;
+    background-color: white;
+    text-align: center
+}
+
+.div-1 h2,
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: blue;
+    font-weight: 500
+}
+
+.div-2 {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    height: 550px;
+    border-radius: 25px
+}
+
+.div-3 {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    height: 750px;
+    margin-right: 25px;
+    border-radius: 25px
+}
+
+.search-input {
+    background-image: url('https://img.icons8.com/search');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    background-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 0px 0px 100px 5px rgba(0, 0, 0, 0.1)
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center
+}
+
+.nav-icons i {
+    font-size: 20px;
+    margin-left: 15px;
+    color: #9d9d9d
+}
+
+.div-1-row-1 img {
+    border-radius: 50%
+}
+
+.div-1-row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5em
+}
+
+.div-1-col-2 h5 {
+    padding: 0;
+    margin: 0;
+    margin-top: 3px
+}
+
+.left-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px
+}
+
+.left-icons h5 {
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0
+}
+
+.div-1-row-2 h3 {
+    text-align: left;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-top: 3em;
+    color: blue
+}
+
+.div-2-icons{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div-2-content p{
+    color: black;
+    margin-top: 5px;
+}
